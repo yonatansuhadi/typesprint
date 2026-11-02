@@ -1,0 +1,14 @@
+# requirements.txt
+# -----------------
+# These are the Python packages needed to run TypeSprint.
+#
+# streamlit         - the main framework that turns Python into a website
+# streamlit-autorefresh - a tiny add-on that makes the page refresh
+#                    automatically every second so the countdown ticks smoothly.
+#                    Without it, the timer would only update when the user
+#                    interacts with a widget. It has no game logic inside it.
+
+streamlit
+streamlit-autorefresh
+streamlit-keyup
+
